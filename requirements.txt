@@ -2,4 +2,4 @@ requests
 pandas
 poisson-odds
 nhl-api-py
-edginghockeyscraper
+edginghockeyscraper>=0.1.19

@@ -13,7 +13,7 @@ from footix.models.basic_poisson import PoissonModel
 # ---------------------------------------------------------------------------
 print("Sťahujem historické dáta pre Premier League 2024/25...")
 dataset = ScrapFootballData(
-    competition="E0",          # kód Premier League na football-data.co.uk
+    competition="ENG Premier League",   # kľúč pyfootix pre Premier League
     season="2024-2025",
     path="./data",
     force_reload=False

@@ -1,5 +1,5 @@
 requests
 pandas
 poisson-odds
-nhl-api-py
-edginghockeyscraper>=0.1.19
+numpy
+scipy

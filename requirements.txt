@@ -1,5 +1,4 @@
 requests
 pandas
-poisson-odds
 numpy
 scipy

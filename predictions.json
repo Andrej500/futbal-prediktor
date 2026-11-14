@@ -1,30 +1,6 @@
 [
   {
     "datum_utc": "2026-11-14",
-    "zaciatok_utc": "2026-11-14 02:00",
-    "zaciatok_sk": "2026-11-14 03:00",
-    "domaci": "VAN",
-    "hostia": "NYR",
-    "predikcia_1X2": {
-      "vyhra_doma": 0.545,
-      "remiza": 0.17,
-      "vyhra_hosti": 0.285
-    }
-  },
-  {
-    "datum_utc": "2026-11-14",
-    "zaciatok_utc": "2026-11-14 03:00",
-    "zaciatok_sk": "2026-11-14 04:00",
-    "domaci": "VGK",
-    "hostia": "NSH",
-    "predikcia_1X2": {
-      "vyhra_doma": 0.559,
-      "remiza": 0.149,
-      "vyhra_hosti": 0.291
-    }
-  },
-  {
-    "datum_utc": "2026-11-14",
     "zaciatok_utc": "2026-11-14 18:00",
     "zaciatok_sk": "2026-11-14 19:00",
     "domaci": "CAR",
@@ -189,6 +165,42 @@
       "vyhra_doma": 0.558,
       "remiza": 0.191,
       "vyhra_hosti": 0.251
+    }
+  },
+  {
+    "datum_utc": "2026-11-16",
+    "zaciatok_utc": "2026-11-16 00:30",
+    "zaciatok_sk": "2026-11-16 01:30",
+    "domaci": "PHI",
+    "hostia": "EDM",
+    "predikcia_1X2": {
+      "vyhra_doma": 0.195,
+      "remiza": 0.12,
+      "vyhra_hosti": 0.685
+    }
+  },
+  {
+    "datum_utc": "2026-11-16",
+    "zaciatok_utc": "2026-11-16 01:00",
+    "zaciatok_sk": "2026-11-16 02:00",
+    "domaci": "DAL",
+    "hostia": "FLA",
+    "predikcia_1X2": {
+      "vyhra_doma": 0.427,
+      "remiza": 0.171,
+      "vyhra_hosti": 0.402
+    }
+  },
+  {
+    "datum_utc": "2026-11-16",
+    "zaciatok_utc": "2026-11-16 01:00",
+    "zaciatok_sk": "2026-11-16 02:00",
+    "domaci": "ANA",
+    "hostia": "CGY",
+    "predikcia_1X2": {
+      "vyhra_doma": 0.749,
+      "remiza": 0.124,
+      "vyhra_hosti": 0.128
     }
   }
 ]

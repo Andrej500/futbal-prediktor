@@ -219,5 +219,39 @@
       "sanca_under": 0.203,
       "sanca_over": 0.797
     }
+  },
+  {
+    "zaciatok_sk": "2026-11-20 03:40",
+    "domaci": "SEA",
+    "hostia": "VAN",
+    "predikcia_1X2": {
+      "uroven_istoty": "NIZKA",
+      "vyhra_doma": 0.403,
+      "remiza": 0.138,
+      "vyhra_hosti": 0.459
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "OVER 5.5",
+      "sanca_under": 0.129,
+      "sanca_over": 0.871
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-20 04:00",
+    "domaci": "VGK",
+    "hostia": "DAL",
+    "predikcia_1X2": {
+      "uroven_istoty": "NIZKA",
+      "vyhra_doma": 0.428,
+      "remiza": 0.198,
+      "vyhra_hosti": 0.374
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "UNDER 5.5",
+      "sanca_under": 0.73,
+      "sanca_over": 0.27
+    }
   }
 ]

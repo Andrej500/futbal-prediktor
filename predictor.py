@@ -99,7 +99,7 @@ else:
 
     attack_home = (df.groupby('home')['home_goals'].mean() / league_avg).to_dict()
     defense_home = (df.groupby('home')['away_goals'].mean() / league_avg).to_dict()
-    attack_away = (df.groupby('away')['away_goals'].mean() / league_avg).to_dict()
+    attack_away = (df.groupby('away')['home_goals'].mean() / league_avg).to_dict() # Oprava: away utok je away_goals
     defense_away = (df.groupby('away')['home_goals'].mean() / league_avg).to_dict()
 
     print(f"Ligový priemer: {league_avg:.2f}, Výhoda domácich: {home_adv:.2f}")
@@ -148,7 +148,7 @@ if not today_games:
 print(f"Našlo sa {len(today_games)} zápasov v nasledujúcich 36 hodinách.")
 
 # ---------------------------------------------------------------------------
-# 3. Predikcie (BEZ FILTRA – ukladajú sa všetky zápasy)
+# 3. Predikcie (1X2 a Over/Under)
 # ---------------------------------------------------------------------------
 predictions = []
 
@@ -170,25 +170,41 @@ for game in today_games:
     away_probs = poisson.pmf(range(max_goals + 1), away_xg)
 
     p_home, p_draw, p_away = 0.0, 0.0, 0.0
+    p_under_5_5 = 0.0  # Pravdepodobnosť, že padne 0-5 gólov
+    
     for i in range(max_goals + 1):
         for j in range(max_goals + 1):
             prob = home_probs[i] * away_probs[j]
+            
+            # Výpočet pre 1X2
             if i > j: p_home += prob
             elif i == j: p_draw += prob
             else: p_away += prob
+            
+            # Výpočet pre Over/Under 5.5
+            if i + j < 5.5:
+                p_under_5_5 += prob
 
     total = p_home + p_draw + p_away
     if total > 0:
         p_home /= total; p_draw /= total; p_away /= total
+        p_under_5_5 /= total
 
-    # --- ÚROVEŇ ISTOTY (podľa najvyššej pravdepodobnosti) ---
-    max_prob = max(p_home, p_draw, p_away)
-    if max_prob >= 0.55:
-        uroven = "VYSOKA"
-    elif max_prob >= 0.50:
-        uroven = "STREDNA"
-    else:
-        uroven = "NIZKA"
+    p_over_5_5 = 1.0 - p_under_5_5
+
+    # --- ÚROVEŇ ISTOTY PRE 1X2 ---
+    max_prob_1x2 = max(p_home, p_draw, p_away)
+    if max_prob_1x2 >= 0.55: uroven_1x2 = "VYSOKA"
+    elif max_prob_1x2 >= 0.50: uroven_1x2 = "STREDNA"
+    else: uroven_1x2 = "NIZKA"
+
+    # --- ÚROVEŇ ISTOTY PRE OVER/UNDER ---
+    max_prob_ou = max(p_under_5_5, p_over_5_5)
+    tip_ou = "UNDER 5.5" if p_under_5_5 > p_over_5_5 else "OVER 5.5"
+    
+    if max_prob_ou >= 0.55: uroven_ou = "VYSOKA"
+    elif max_prob_ou >= 0.50: uroven_ou = "STREDNA"
+    else: uroven_ou = "NIZKA"
 
     start_utc = parse_start_time(game)
     start_sk = to_local(start_utc) if start_utc else None
@@ -197,20 +213,27 @@ for game in today_games:
         "zaciatok_sk": start_sk.strftime('%Y-%m-%d %H:%M') if start_sk else None,
         "domaci": home_team,
         "hostia": away_team,
-        "uroven_istoty": uroven,
         "predikcia_1X2": {
+            "uroven_istoty": uroven_1x2,
             "vyhra_doma": round(float(p_home), 3),
             "remiza": round(float(p_draw), 3),
             "vyhra_hosti": round(float(p_away), 3)
+        },
+        "predikcia_over_under_5_5": {
+            "uroven_istoty": uroven_ou,
+            "tip": tip_ou,
+            "sanca_under": round(float(p_under_5_5), 3),
+            "sanca_over": round(float(p_over_5_5), 3)
         }
     })
 
 with open("predictions.json", "w", encoding="utf-8") as f:
     json.dump(predictions, f, ensure_ascii=False, indent=2)
 
-print(f"Uložených {len(predictions)} predikcií (bez filtra).")
+print(f"Uložených {len(predictions)} predikcií (1X2 + Over/Under).")
 for p in predictions:
-    print(f"  [{p['uroven_istoty']}] {p['zaciatok_sk']} SK | {p['domaci']} vs {p['hostia']} | "
-          f"{p['predikcia_1X2']['vyhra_doma']:.0%} / "
-          f"{p['predikcia_1X2']['remiza']:.0%} / "
-          f"{p['predikcia_1X2']['vyhra_hosti']:.0%}")
+    print(f"  {p['zaciatok_sk']} SK | {p['domaci']} vs {p['hostia']}")
+    print(f"    1X2: [{p['predikcia_1X2']['uroven_istoty']}] "
+          f"{p['predikcia_1X2']['vyhra_doma']:.0%} / {p['predikcia_1X2']['remiza']:.0%} / {p['predikcia_1X2']['vyhra_hosti']:.0%}")
+    print(f"    O/U: [{p['predikcia_over_under_5_5']['uroven_istoty']}] "
+          f"{p['predikcia_over_under_5_5']['tip']} (Under: {p['predikcia_over_under_5_5']['sanca_under']:.0%}, Over: {p['predikcia_over_under_5_5']['sanca_over']:.0%})")

@@ -236,5 +236,90 @@
       "sanca_under": 0.303,
       "sanca_over": 0.697
     }
+  },
+  {
+    "zaciatok_sk": "2026-11-22 18:30",
+    "domaci": "NYR",
+    "hostia": "CAR",
+    "predikcia_1X2": {
+      "uroven_istoty": "VYSOKA",
+      "vyhra_doma": 0.651,
+      "remiza": 0.155,
+      "vyhra_hosti": 0.193
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "UNDER 5.5",
+      "sanca_under": 0.628,
+      "sanca_over": 0.372
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-22 23:00",
+    "domaci": "TBL",
+    "hostia": "BUF",
+    "predikcia_1X2": {
+      "uroven_istoty": "VYSOKA",
+      "vyhra_doma": 0.721,
+      "remiza": 0.123,
+      "vyhra_hosti": 0.156
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "OVER 5.5",
+      "sanca_under": 0.419,
+      "sanca_over": 0.581
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-23 01:00",
+    "domaci": "STL",
+    "hostia": "EDM",
+    "predikcia_1X2": {
+      "uroven_istoty": "NIZKA",
+      "vyhra_doma": 0.44,
+      "remiza": 0.209,
+      "vyhra_hosti": 0.351
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "UNDER 5.5",
+      "sanca_under": 0.8,
+      "sanca_over": 0.2
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-23 01:00",
+    "domaci": "DAL",
+    "hostia": "PIT",
+    "predikcia_1X2": {
+      "uroven_istoty": "NIZKA",
+      "vyhra_doma": 0.42,
+      "remiza": 0.147,
+      "vyhra_hosti": 0.433
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "OVER 5.5",
+      "sanca_under": 0.225,
+      "sanca_over": 0.775
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-23 02:00",
+    "domaci": "VAN",
+    "hostia": "CHI",
+    "predikcia_1X2": {
+      "uroven_istoty": "VYSOKA",
+      "vyhra_doma": 0.193,
+      "remiza": 0.1,
+      "vyhra_hosti": 0.708
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "OVER 5.5",
+      "sanca_under": 0.025,
+      "sanca_over": 0.975
+    }
   }
 ]

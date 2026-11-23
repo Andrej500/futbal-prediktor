@@ -117,5 +117,22 @@
       "sanca_under": 0.811,
       "sanca_over": 0.189
     }
+  },
+  {
+    "zaciatok_sk": "2026-11-25 02:00",
+    "domaci": "EDM",
+    "hostia": "VGK",
+    "predikcia_1X2": {
+      "uroven_istoty": "NIZKA",
+      "vyhra_doma": 0.47,
+      "remiza": 0.174,
+      "vyhra_hosti": 0.356
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "STREDNA",
+      "tip": "UNDER 5.5",
+      "sanca_under": 0.542,
+      "sanca_over": 0.458
+    }
   }
 ]

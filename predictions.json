@@ -1,36 +1,19 @@
 [
   {
-    "zaciatok_sk": "2026-11-25 02:00",
-    "domaci": "EDM",
-    "hostia": "VGK",
-    "predikcia_1X2": {
-      "uroven_istoty": "NIZKA",
-      "vyhra_doma": 0.47,
-      "remiza": 0.174,
-      "vyhra_hosti": 0.356
-    },
-    "predikcia_over_under_5_5": {
-      "uroven_istoty": "STREDNA",
-      "tip": "UNDER 5.5",
-      "sanca_under": 0.539,
-      "sanca_over": 0.461
-    }
-  },
-  {
     "zaciatok_sk": "2026-11-26 01:00",
     "domaci": "BOS",
     "hostia": "WPG",
     "predikcia_1X2": {
       "uroven_istoty": "VYSOKA",
-      "vyhra_doma": 0.586,
+      "vyhra_doma": 0.585,
       "remiza": 0.132,
-      "vyhra_hosti": 0.282
+      "vyhra_hosti": 0.283
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.164,
-      "sanca_over": 0.836
+      "sanca_under": 0.165,
+      "sanca_over": 0.835
     }
   },
   {
@@ -41,13 +24,13 @@
       "uroven_istoty": "VYSOKA",
       "vyhra_doma": 0.258,
       "remiza": 0.157,
-      "vyhra_hosti": 0.585
+      "vyhra_hosti": 0.586
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "STREDNA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.486,
-      "sanca_over": 0.514
+      "sanca_under": 0.487,
+      "sanca_over": 0.513
     }
   },
   {
@@ -63,8 +46,8 @@
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "UNDER 5.5",
-      "sanca_under": 0.684,
-      "sanca_over": 0.316
+      "sanca_under": 0.685,
+      "sanca_over": 0.315
     }
   },
   {
@@ -80,8 +63,8 @@
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.405,
-      "sanca_over": 0.595
+      "sanca_under": 0.406,
+      "sanca_over": 0.594
     }
   },
   {
@@ -97,8 +80,8 @@
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.408,
-      "sanca_over": 0.592
+      "sanca_under": 0.409,
+      "sanca_over": 0.591
     }
   },
   {
@@ -109,13 +92,13 @@
       "uroven_istoty": "STREDNA",
       "vyhra_doma": 0.33,
       "remiza": 0.154,
-      "vyhra_hosti": 0.515
+      "vyhra_hosti": 0.516
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.353,
-      "sanca_over": 0.647
+      "sanca_under": 0.354,
+      "sanca_over": 0.646
     }
   },
   {
@@ -131,8 +114,8 @@
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.229,
-      "sanca_over": 0.771
+      "sanca_under": 0.23,
+      "sanca_over": 0.77
     }
   },
   {
@@ -148,8 +131,8 @@
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.291,
-      "sanca_over": 0.709
+      "sanca_under": 0.292,
+      "sanca_over": 0.708
     }
   },
   {
@@ -158,15 +141,15 @@
     "hostia": "VAN",
     "predikcia_1X2": {
       "uroven_istoty": "STREDNA",
-      "vyhra_doma": 0.344,
+      "vyhra_doma": 0.343,
       "remiza": 0.143,
       "vyhra_hosti": 0.513
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.214,
-      "sanca_over": 0.786
+      "sanca_under": 0.215,
+      "sanca_over": 0.785
     }
   },
   {
@@ -175,15 +158,15 @@
     "hostia": "NSH",
     "predikcia_1X2": {
       "uroven_istoty": "NIZKA",
-      "vyhra_doma": 0.419,
+      "vyhra_doma": 0.418,
       "remiza": 0.175,
       "vyhra_hosti": 0.406
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "STREDNA",
       "tip": "UNDER 5.5",
-      "sanca_under": 0.537,
-      "sanca_over": 0.463
+      "sanca_under": 0.538,
+      "sanca_over": 0.462
     }
   },
   {
@@ -199,8 +182,8 @@
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.246,
-      "sanca_over": 0.754
+      "sanca_under": 0.247,
+      "sanca_over": 0.753
     }
   },
   {
@@ -216,8 +199,8 @@
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "UNDER 5.5",
-      "sanca_under": 0.687,
-      "sanca_over": 0.313
+      "sanca_under": 0.688,
+      "sanca_over": 0.312
     }
   },
   {
@@ -226,15 +209,15 @@
     "hostia": "CHI",
     "predikcia_1X2": {
       "uroven_istoty": "NIZKA",
-      "vyhra_doma": 0.492,
+      "vyhra_doma": 0.491,
       "remiza": 0.132,
-      "vyhra_hosti": 0.376
+      "vyhra_hosti": 0.377
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.087,
-      "sanca_over": 0.913
+      "sanca_under": 0.088,
+      "sanca_over": 0.912
     }
   },
   {
@@ -250,8 +233,8 @@
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.088,
-      "sanca_over": 0.912
+      "sanca_under": 0.089,
+      "sanca_over": 0.911
     }
   }
 ]

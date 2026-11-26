@@ -1,240 +1,257 @@
 [
   {
-    "zaciatok_sk": "2026-11-26 01:00",
+    "zaciatok_sk": "2026-11-27 19:00",
     "domaci": "BOS",
-    "hostia": "WPG",
+    "hostia": "TOR",
     "predikcia_1X2": {
-      "uroven_istoty": "VYSOKA",
-      "vyhra_doma": 0.585,
-      "remiza": 0.132,
-      "vyhra_hosti": 0.283
-    },
-    "predikcia_over_under_5_5": {
-      "uroven_istoty": "VYSOKA",
-      "tip": "OVER 5.5",
-      "sanca_under": 0.165,
-      "sanca_over": 0.835
-    }
-  },
-  {
-    "zaciatok_sk": "2026-11-26 01:00",
-    "domaci": "BUF",
-    "hostia": "NYR",
-    "predikcia_1X2": {
-      "uroven_istoty": "VYSOKA",
-      "vyhra_doma": 0.258,
-      "remiza": 0.157,
-      "vyhra_hosti": 0.586
-    },
-    "predikcia_over_under_5_5": {
       "uroven_istoty": "STREDNA",
+      "vyhra_doma": 0.548,
+      "remiza": 0.14,
+      "vyhra_hosti": 0.312
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.487,
-      "sanca_over": 0.513
+      "sanca_under": 0.212,
+      "sanca_over": 0.788
     }
   },
   {
-    "zaciatok_sk": "2026-11-26 01:00",
-    "domaci": "TBL",
-    "hostia": "CAR",
+    "zaciatok_sk": "2026-11-27 19:00",
+    "domaci": "NJD",
+    "hostia": "CGY",
     "predikcia_1X2": {
       "uroven_istoty": "VYSOKA",
-      "vyhra_doma": 0.594,
-      "remiza": 0.173,
-      "vyhra_hosti": 0.233
+      "vyhra_doma": 0.634,
+      "remiza": 0.137,
+      "vyhra_hosti": 0.229
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "OVER 5.5",
+      "sanca_under": 0.335,
+      "sanca_over": 0.665
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-27 19:00",
+    "domaci": "NSH",
+    "hostia": "UTA",
+    "predikcia_1X2": {
+      "uroven_istoty": "STREDNA",
+      "vyhra_doma": 0.532,
+      "remiza": 0.15,
+      "vyhra_hosti": 0.319
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "OVER 5.5",
+      "sanca_under": 0.311,
+      "sanca_over": 0.689
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-27 20:00",
+    "domaci": "STL",
+    "hostia": "DAL",
+    "predikcia_1X2": {
+      "uroven_istoty": "NIZKA",
+      "vyhra_doma": 0.483,
+      "remiza": 0.188,
+      "vyhra_hosti": 0.328
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "UNDER 5.5",
-      "sanca_under": 0.685,
-      "sanca_over": 0.315
+      "sanca_under": 0.682,
+      "sanca_over": 0.318
     }
   },
   {
-    "zaciatok_sk": "2026-11-26 01:00",
-    "domaci": "FLA",
+    "zaciatok_sk": "2026-11-27 21:00",
+    "domaci": "TBL",
     "hostia": "OTT",
     "predikcia_1X2": {
-      "uroven_istoty": "NIZKA",
-      "vyhra_doma": 0.499,
-      "remiza": 0.16,
-      "vyhra_hosti": 0.341
+      "uroven_istoty": "VYSOKA",
+      "vyhra_doma": 0.575,
+      "remiza": 0.168,
+      "vyhra_hosti": 0.256
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
-      "tip": "OVER 5.5",
-      "sanca_under": 0.406,
-      "sanca_over": 0.594
+      "tip": "UNDER 5.5",
+      "sanca_under": 0.605,
+      "sanca_over": 0.395
     }
   },
   {
-    "zaciatok_sk": "2026-11-26 01:00",
-    "domaci": "NYI",
-    "hostia": "STL",
-    "predikcia_1X2": {
-      "uroven_istoty": "NIZKA",
-      "vyhra_doma": 0.469,
-      "remiza": 0.162,
-      "vyhra_hosti": 0.369
-    },
-    "predikcia_over_under_5_5": {
-      "uroven_istoty": "VYSOKA",
-      "tip": "OVER 5.5",
-      "sanca_under": 0.409,
-      "sanca_over": 0.591
-    }
-  },
-  {
-    "zaciatok_sk": "2026-11-26 01:00",
-    "domaci": "PIT",
-    "hostia": "CGY",
-    "predikcia_1X2": {
-      "uroven_istoty": "STREDNA",
-      "vyhra_doma": 0.33,
-      "remiza": 0.154,
-      "vyhra_hosti": 0.516
-    },
-    "predikcia_over_under_5_5": {
-      "uroven_istoty": "VYSOKA",
-      "tip": "OVER 5.5",
-      "sanca_under": 0.354,
-      "sanca_over": 0.646
-    }
-  },
-  {
-    "zaciatok_sk": "2026-11-26 01:00",
-    "domaci": "WSH",
-    "hostia": "PHI",
-    "predikcia_1X2": {
-      "uroven_istoty": "NIZKA",
-      "vyhra_doma": 0.391,
-      "remiza": 0.147,
-      "vyhra_hosti": 0.462
-    },
-    "predikcia_over_under_5_5": {
-      "uroven_istoty": "VYSOKA",
-      "tip": "OVER 5.5",
-      "sanca_under": 0.23,
-      "sanca_over": 0.77
-    }
-  },
-  {
-    "zaciatok_sk": "2026-11-26 01:00",
-    "domaci": "CBJ",
-    "hostia": "NJD",
-    "predikcia_1X2": {
-      "uroven_istoty": "NIZKA",
-      "vyhra_doma": 0.357,
-      "remiza": 0.151,
-      "vyhra_hosti": 0.492
-    },
-    "predikcia_over_under_5_5": {
-      "uroven_istoty": "VYSOKA",
-      "tip": "OVER 5.5",
-      "sanca_under": 0.292,
-      "sanca_over": 0.708
-    }
-  },
-  {
-    "zaciatok_sk": "2026-11-26 01:30",
-    "domaci": "DET",
+    "zaciatok_sk": "2026-11-27 21:00",
+    "domaci": "PHI",
     "hostia": "VAN",
     "predikcia_1X2": {
       "uroven_istoty": "STREDNA",
-      "vyhra_doma": 0.343,
-      "remiza": 0.143,
-      "vyhra_hosti": 0.513
+      "vyhra_doma": 0.36,
+      "remiza": 0.138,
+      "vyhra_hosti": 0.502
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.215,
-      "sanca_over": 0.785
+      "sanca_under": 0.152,
+      "sanca_over": 0.848
     }
   },
   {
-    "zaciatok_sk": "2026-11-26 02:00",
-    "domaci": "DAL",
-    "hostia": "NSH",
+    "zaciatok_sk": "2026-11-27 21:00",
+    "domaci": "WSH",
+    "hostia": "FLA",
     "predikcia_1X2": {
       "uroven_istoty": "NIZKA",
-      "vyhra_doma": 0.418,
-      "remiza": 0.175,
-      "vyhra_hosti": 0.406
+      "vyhra_doma": 0.433,
+      "remiza": 0.153,
+      "vyhra_hosti": 0.414
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "OVER 5.5",
+      "sanca_under": 0.289,
+      "sanca_over": 0.711
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-27 21:00",
+    "domaci": "CBJ",
+    "hostia": "DET",
+    "predikcia_1X2": {
+      "uroven_istoty": "NIZKA",
+      "vyhra_doma": 0.348,
+      "remiza": 0.174,
+      "vyhra_hosti": 0.478
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "STREDNA",
       "tip": "UNDER 5.5",
-      "sanca_under": 0.538,
-      "sanca_over": 0.462
+      "sanca_under": 0.547,
+      "sanca_over": 0.453
     }
   },
   {
-    "zaciatok_sk": "2026-11-26 02:00",
+    "zaciatok_sk": "2026-11-27 22:00",
     "domaci": "MIN",
-    "hostia": "UTA",
+    "hostia": "COL",
     "predikcia_1X2": {
       "uroven_istoty": "VYSOKA",
-      "vyhra_doma": 0.676,
-      "remiza": 0.123,
-      "vyhra_hosti": 0.201
+      "vyhra_doma": 0.63,
+      "remiza": 0.133,
+      "vyhra_hosti": 0.236
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.247,
-      "sanca_over": 0.753
+      "sanca_under": 0.27,
+      "sanca_over": 0.73
     }
   },
   {
-    "zaciatok_sk": "2026-11-26 03:30",
-    "domaci": "COL",
-    "hostia": "MTL",
+    "zaciatok_sk": "2026-11-27 22:00",
+    "domaci": "ANA",
+    "hostia": "LAK",
     "predikcia_1X2": {
-      "uroven_istoty": "VYSOKA",
-      "vyhra_doma": 0.671,
-      "remiza": 0.156,
-      "vyhra_hosti": 0.173
+      "uroven_istoty": "NIZKA",
+      "vyhra_doma": 0.467,
+      "remiza": 0.166,
+      "vyhra_hosti": 0.367
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "STREDNA",
+      "tip": "OVER 5.5",
+      "sanca_under": 0.454,
+      "sanca_over": 0.546
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-27 22:00",
+    "domaci": "SJS",
+    "hostia": "VGK",
+    "predikcia_1X2": {
+      "uroven_istoty": "STREDNA",
+      "vyhra_doma": 0.294,
+      "remiza": 0.177,
+      "vyhra_hosti": 0.528
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "UNDER 5.5",
-      "sanca_under": 0.688,
-      "sanca_over": 0.312
+      "sanca_under": 0.628,
+      "sanca_over": 0.372
     }
   },
   {
-    "zaciatok_sk": "2026-11-26 03:40",
-    "domaci": "SEA",
-    "hostia": "CHI",
+    "zaciatok_sk": "2026-11-27 23:30",
+    "domaci": "CHI",
+    "hostia": "NYR",
     "predikcia_1X2": {
       "uroven_istoty": "NIZKA",
-      "vyhra_doma": 0.491,
-      "remiza": 0.132,
-      "vyhra_hosti": 0.377
+      "vyhra_doma": 0.345,
+      "remiza": 0.158,
+      "vyhra_hosti": 0.497
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.088,
-      "sanca_over": 0.912
+      "sanca_under": 0.378,
+      "sanca_over": 0.622
     }
   },
   {
-    "zaciatok_sk": "2026-11-26 04:00",
-    "domaci": "ANA",
-    "hostia": "SJS",
+    "zaciatok_sk": "2026-11-28 01:30",
+    "domaci": "NYI",
+    "hostia": "WPG",
     "predikcia_1X2": {
       "uroven_istoty": "NIZKA",
-      "vyhra_doma": 0.4,
-      "remiza": 0.133,
-      "vyhra_hosti": 0.467
+      "vyhra_doma": 0.49,
+      "remiza": 0.152,
+      "vyhra_hosti": 0.357
     },
     "predikcia_over_under_5_5": {
       "uroven_istoty": "VYSOKA",
       "tip": "OVER 5.5",
-      "sanca_under": 0.089,
-      "sanca_over": 0.911
+      "sanca_under": 0.307,
+      "sanca_over": 0.693
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-28 02:00",
+    "domaci": "BUF",
+    "hostia": "PIT",
+    "predikcia_1X2": {
+      "uroven_istoty": "STREDNA",
+      "vyhra_doma": 0.324,
+      "remiza": 0.144,
+      "vyhra_hosti": 0.531
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "OVER 5.5",
+      "sanca_under": 0.246,
+      "sanca_over": 0.754
+    }
+  },
+  {
+    "zaciatok_sk": "2026-11-28 02:00",
+    "domaci": "EDM",
+    "hostia": "SEA",
+    "predikcia_1X2": {
+      "uroven_istoty": "NIZKA",
+      "vyhra_doma": 0.467,
+      "remiza": 0.142,
+      "vyhra_hosti": 0.391
+    },
+    "predikcia_over_under_5_5": {
+      "uroven_istoty": "VYSOKA",
+      "tip": "OVER 5.5",
+      "sanca_under": 0.173,
+      "sanca_over": 0.827
     }
   }
 ]
